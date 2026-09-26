@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="海鮮こねこ丼 - Video Portfolio">
+<title>海鮮こねこ丼 | VIDEO PORTFOLIO</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="brand">海鮮こねこ丼</div>
+  <nav><a href="#works">WORKS</a><a href="#about">ABOUT</a></nav>
+</header>
+
+<main>
+<section class="hero">
+  <p class="eyebrow">VIDEO PORTFOLIO</p>
+  <h1>映像作品集</h1>
+  <p class="lead">MV / CM / 3D / Motion Graphics</p>
+</section>
+
+<section id="works" class="works-section">
+  <div class="section-heading">
+    <div><p class="eyebrow">WORKS</p><h2>作品</h2></div>
+    <p id="resultCount" class="result-count"></p>
+  </div>
+
+  <div class="filter-groups">
+    <div class="filter-group">
+      <span class="filter-label">TYPE</span>
+      <div id="typeFilters" class="filter-buttons"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">MOOD</span>
+      <div id="moodFilters" class="filter-buttons"></div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">STYLE / TECHNIQUE</span>
+      <div id="styleFilters" class="filter-buttons"></div>
+    </div>
+  </div>
+
+  <div class="active-filter-row">
+    <button id="clearFilters" class="clear-button">すべて表示</button>
+    <span id="activeFilters" class="active-filters"></span>
+  </div>
+
+  <div id="worksGrid" class="works-grid"></div>
+</section>
+
+<section id="about" class="about-section">
+  <p class="eyebrow">ABOUT</p>
+  <h2>海鮮こねこ丼</h2>
+  <p>映像制作・MV・CMなどを中心に、映像表現を制作しています。</p>
+</section>
+</main>
+
+<div id="modal" class="modal" aria-hidden="true">
+  <div class="modal-backdrop" data-close></div>
+  <article class="modal-content">
+    <button class="modal-close" data-close aria-label="閉じる">×</button>
+    <div id="modalMedia"></div>
+    <div class="modal-body">
+      <p id="modalType" class="eyebrow"></p>
+      <h2 id="modalTitle"></h2>
+      <div id="modalTags" class="tag-list"></div>
+      <p id="modalDescription"></p>
+      <dl class="meta">
+        <div><dt>参考金額</dt><dd id="modalPrice"></dd></div>
+        <div><dt>参考納期</dt><dd id="modalPeriod"></dd></div>
+      </dl>
+      <a id="modalYoutube" class="youtube-link" target="_blank" rel="noopener noreferrer">YouTubeで本編を見る ↗</a>
+    </div>
+  </article>
+</div>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
