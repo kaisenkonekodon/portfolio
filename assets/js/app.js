@@ -5,8 +5,8 @@ const works = [
     youtube: "https://youtu.be/XJLatn0lAB8",
     type: ["CM"],
     mood: ["かわいい", "ポップ"],
-    style: [],
-    tags: ["CM", "かわいい", "ポップ"],
+    style: ["2D"],
+    tags: ["CM", "かわいい", "ポップ", "2D"],
     description: `新島NOKO様の「CM作ってみた」企画。
 ワンちゃんが歌っているかのような可愛くてわかりやすい楽曲とともに、その魅力をCMにぎゅっと詰め込みました。
 映像制作だけでなく、歌詞に合わせたわんコメ機能の調査～CMの構成、画面デザインや演出考案まで担当しました。`,
@@ -19,8 +19,8 @@ const works = [
     youtube: "https://youtu.be/XWSi5UIVPhk",
     type: ["MV", "歌ってみた"],
     mood: ["かわいい", "ポップ"],
-    style: ["2D", "3D"],
-    tags: ["MV", "歌ってみた", "かわいい", "ポップ", "2D", "3D"],
+    style: ["2D", "2.5D", "CG"],
+    tags: ["MV", "歌ってみた", "かわいい", "ポップ", "2D", "2.5D", "CG"],
     description: ``,
     price: "40,000円",
     period: "1.5か月"
@@ -30,9 +30,9 @@ const works = [
     video: "assets/video/lovedoll.mp4",
     youtube: "https://youtu.be/mkvbVoxm3tk",
     type: ["MV", "歌ってみた"],
-    mood: ["ダーク", "不穏"],
-    style: ["2D", "ストーリー"],
-    tags: ["MV", "歌ってみた", "ダーク", "不穏", "2D", "ストーリー"],
+    mood: ["ダーク", "ストーリー性"],
+    style: ["2D"],
+    tags: ["MV", "歌ってみた", "ダーク","2D", "2.5D", "ストーリー性"],
     description: ``,
     price: "30,000円",
     period: "2か月"
@@ -43,8 +43,8 @@ const works = [
     youtube: "https://youtu.be/OFVcrbvBkSs",
     type: ["MV", "オリジナル曲"],
     mood: ["きれい", "エモい", "幻想的"],
-    style: ["2.5D"],
-    tags: ["MV", "オリジナル曲", "きれい", "エモい", "幻想的", "2.5D"],
+    style: ["2D","2.5D"],
+    tags: ["MV", "オリジナル曲", "きれい", "エモい", "幻想的", "2D", "2.5D"],
     description: ``,
     price: "15,000円",
     period: "3週間"
@@ -68,7 +68,7 @@ const works = [
     type: ["PV"],
     mood: ["かっこいい", "ダーク"],
     style: ["2.5D"],
-    tags: ["PV", "かっこいい", "ダーク", "2.5D"],
+    tags: ["PV", "かっこいい", "ダーク",  "2D","2.5D"],
     description: ``,
     price: "20,000円",
     period: "1か月"
@@ -78,8 +78,8 @@ const works = [
 const state = { type: new Set(), mood: new Set(), style: new Set() };
 const groups = {
   type: ["オリジナル曲", "MV", "歌ってみた", "CM", "PV", "Shorts"],
-  mood: ["かっこいい", "かわいい", "きれい", "おしゃれ", "エモい", "ポップ", "幻想的", "ダーク"],
-  style: ["2D", "3D", "2.5D", "ストーリー"]
+  mood: ["かっこいい", "かわいい", "きれい", "おしゃれ", "エモい", "ポップ", "幻想的", "ダーク","ストーリー性"],
+  style: ["2D", "CG", "2.5D", ]
 };
 
 const $ = s => document.querySelector(s);
