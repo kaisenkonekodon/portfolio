@@ -6,19 +6,80 @@ const works = [
     type: ["CM"],
     mood: ["かわいい", "ポップ"],
     style: [],
-    tags: ["かわいい", "ポップ", "CM"],
-    description: `新島NOKO様の「CM作ってみた」企画。\nワンちゃんが歌っているかのような可愛くてわかりやすい楽曲とともに、その魅力をCMにぎゅっと詰め込みました。\n映像制作だけでなく、歌詞に合わせたわんコメ機能の調査～CMの構成、画面デザインや演出考案まで担当しました。`,
+    tags: ["CM", "かわいい", "ポップ"],
+    description: `新島NOKO様の「CM作ってみた」企画。
+ワンちゃんが歌っているかのような可愛くてわかりやすい楽曲とともに、その魅力をCMにぎゅっと詰め込みました。
+映像制作だけでなく、歌詞に合わせたわんコメ機能の調査～CMの構成、画面デザインや演出考案まで担当しました。`,
     price: "30,000円",
     period: "1か月"
+  },
+  {
+    title: "どきどきキュン!で大暴走♡",
+    video: "assets/video/dokidoki-kyun.mp4",
+    youtube: "https://youtu.be/XWSi5UIVPhk",
+    type: ["MV", "歌ってみた"],
+    mood: ["かわいい", "ポップ"],
+    style: ["2D", "3D"],
+    tags: ["MV", "歌ってみた", "かわいい", "ポップ", "2D", "3D"],
+    description: ``,
+    price: "40,000円",
+    period: "1.5か月"
+  },
+  {
+    title: "ラブドール",
+    video: "assets/video/lovedoll.mp4",
+    youtube: "https://youtu.be/mkvbVoxm3tk",
+    type: ["MV", "歌ってみた"],
+    mood: ["ダーク", "不穏"],
+    style: ["2D", "ストーリー"],
+    tags: ["MV", "歌ってみた", "ダーク", "不穏", "2D", "ストーリー"],
+    description: ``,
+    price: "30,000円",
+    period: "2か月"
+  },
+  {
+    title: "春よ、私の懺悔を聴いて feat.初音ミク",
+    video: "assets/video/haru-zange.mp4",
+    youtube: "https://youtu.be/OFVcrbvBkSs",
+    type: ["MV", "オリジナル曲"],
+    mood: ["きれい", "エモい", "幻想的"],
+    style: ["2.5D"],
+    tags: ["MV", "オリジナル曲", "きれい", "エモい", "幻想的", "2.5D"],
+    description: ``,
+    price: "15,000円",
+    period: "3週間"
+  },
+  {
+    title: "とあるVTuberとの誕生日",
+    video: "assets/video/vtuber-birthday.mp4",
+    youtube: "https://youtu.be/38RSVb23N2M",
+    type: ["MV", "オリジナル曲"],
+    mood: ["ポップ", "エモい", "きれい"],
+    style: ["2.5D"],
+    tags: ["MV", "オリジナル曲", "ポップ", "エモい", "きれい", "2.5D"],
+    description: ``,
+    price: "30,000円",
+    period: "2か月"
+  },
+  {
+    title: "【自己紹介PV】ユムレ・カオスアニマ様",
+    video: "assets/video/yumure-profile-pv.mp4",
+    youtube: "https://youtu.be/-ssw5IHPUGs",
+    type: ["PV"],
+    mood: ["かっこいい", "ダーク"],
+    style: ["2.5D"],
+    tags: ["PV", "かっこいい", "ダーク", "2.5D"],
+    description: ``,
+    price: "20,000円",
+    period: "1か月"
   }
-  // 作品を追加するときは、この下に同じ形式で追加してください。
 ];
 
 const state = { type: new Set(), mood: new Set(), style: new Set() };
 const groups = {
-  type: ["MV","歌ってみた","CM","PV","Shorts","Vtuber","ゲーム"],
-  mood: ["かっこいい","かわいい","きれい","おしゃれ","エモい","ポップ","幻想的","ダーク","病み","ホラー","不穏","コミカル"],
-  style: ["2D","3D","2.5D","イラスト","実写","CG","グラフィック","コラージュ","レトロ","サイバー","歌詞演出","タイポグラフィ","音ハメ","エフェクト","ストーリー","カメラワーク","グリッチ","ループ","モーショングラフィックス"]
+  type: ["オリジナル曲", "MV", "歌ってみた", "CM", "PV", "Shorts"],
+  mood: ["かっこいい", "かわいい", "きれい", "おしゃれ", "エモい", "ポップ", "幻想的", "ダーク"],
+  style: ["2D", "3D", "2.5D", "ストーリー"]
 };
 
 const $ = s => document.querySelector(s);
