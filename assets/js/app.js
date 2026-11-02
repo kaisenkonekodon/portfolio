@@ -1,3 +1,4 @@
+
 const works = [
   {
     title: "「わんコメ」CM作ってみた/新島らんぷ様",
@@ -6,6 +7,8 @@ const works = [
     type: ["CM"],
     mood: ["かわいい", "ポップ"],
     style: ["2D"],
+    plan: "その他プラン",
+    year: "2026",
     tags: ["CM", "かわいい", "ポップ", "2D"],
     description: `新島NOKO様の「CM作ってみた」企画。
 ワンちゃんが歌っているかのような可愛くてわかりやすい楽曲とともに、その魅力をCMにぎゅっと詰め込みました。
@@ -20,8 +23,14 @@ const works = [
     type: ["MV", "歌ってみた"],
     mood: ["かわいい", "ポップ"],
     style: ["2D", "2.5D", "CG"],
+    plan: "オリジナルMVプラン",
+    year: "2026",
     tags: ["MV", "歌ってみた", "かわいい", "ポップ", "2D", "2.5D", "CG"],
-    description: ``,
+    description: `楽曲の「ジャージメイドカフェ」という世界観に合わせ、キラキラとした可愛らしさを詰め込んだMVを制作しました。
+
+サビでは、メイドカフェの華やかな店内背景をCGで制作。さらに、立ち絵のジャージメイド衣装に合わせ、ジッパーをモチーフにしたオリジナルのトランジションも取り入れました。
+
+一方、サビ以外のパートは2Dを中心としたシンプルで可愛らしいデザインに仕上げ、3Dを使用したサビとの対比を演出。パートごとに異なる魅力を持たせることで、最後まで飽きずに楽しめる映像を目指しました。`,
     price: "40,000円",
     period: "1.5か月"
   },
@@ -30,10 +39,22 @@ const works = [
     video: "assets/video/lovedoll.mp4",
     youtube: "https://youtu.be/mkvbVoxm3tk",
     type: ["MV", "歌ってみた"],
-    mood: ["ダーク", "ストーリー性"],
-    style: ["2D"],
-    tags: ["MV", "歌ってみた", "ダーク","2D", "2.5D", "ストーリー性"],
-    description: ``,
+    mood: ["ダーク", "ストーリー性", "幻想的"],
+    style: ["2D", "2.5D"],
+    plan: "オリジナルMVプラン",
+    year: "2026",
+    tags: ["MV", "歌ってみた", "ダーク", "2D", "2.5D", "ストーリー性", "幻想的"],
+    description: `楽曲に込められた恋愛の葛藤や執着を独自に解釈し、エモーショナルかつドラマ性の高いMVとして再構築しました。
+
+本家MVの目まぐるしく変化する表情の演出をリスペクトしながら、歌詞に合わせて目を閉じる仕草や、名前を呼ぶ瞬間、画面の歪みなどを加え、オリジナルの映像表現を追求しています。
+
+ストーリー面では、「元死神」であるひよこさんが人間だった頃の姿や物語を想像し、映像として表現。前半は優しく幻想的な雰囲気から始まり、次第に愛が執着へ、記憶が幻覚へと変質していく過程を、画面の増殖や魚眼レンズによる歪み、目の暗転・発光などの演出で描きました。
+
+ビジュアル面では、「情熱」「悲しい記憶」といった花言葉を持つ彼岸花を全編の象徴として配置。花と血を重ね合わせることで、愛と死のつながりを視覚的に表現しました。また、糸や鍵穴、舞台的な構図によって支配と被支配の関係性を描き、逆光などを活用することで、センシティブな印象に寄りすぎない、儚く美しい表現を心がけています。
+
+クライマックスでは、「愛した結果、壊してしまった」という結末を明確に提示。ラブドールの山や彼岸花の中での変化を通して、人間だったひよこさんが死神へと変わる瞬間を描きました。
+
+「さらば愛した人」のシーンでは、彼岸花の花びらを散らすことで、もう一つの花言葉である「再会」にあえて皮肉な意味を持たせています。死神となったことで、かつて愛した人との再会はもう叶わない——そんな切なさを込め、映像全体を通して物語性のある作品に仕上げました。`,
     price: "30,000円",
     period: "2か月"
   },
@@ -43,9 +64,17 @@ const works = [
     youtube: "https://youtu.be/OFVcrbvBkSs",
     type: ["MV", "オリジナル曲"],
     mood: ["きれい", "エモい", "幻想的"],
-    style: ["2D","2.5D"],
+    style: ["2D", "2.5D"],
+    plan: "簡易MVプラン", 
+    year: "2026",
     tags: ["MV", "オリジナル曲", "きれい", "エモい", "幻想的", "2D", "2.5D"],
-    description: ``,
+    description: `過去の恋愛への後悔や、愛した人の幸せを願う気持ちを歌った楽曲と解釈し、哀愁漂う美しい雰囲気のMVを制作しました。
+
+額縁に飾られた思い出のようなイメージを映像に落とし込み、特に2番Bメロでは、過去の記憶を静かに振り返るような演出を取り入れています。
+
+また、歌詞に合わせて画面に穴が開く、火がつく、瞳の中に映像が現れるといった演出を加え、楽曲の世界観をより深く感じられるよう工夫しました。
+
+背景が統合された一枚絵で構成されているため、静かな楽曲の雰囲気を損なわないことを大切にしながら、カメラワークや演出に変化をつけ、サビの盛り上がりと静かなパートのメリハリを生み出しています。`,
     price: "15,000円",
     period: "3週間"
   },
@@ -56,8 +85,22 @@ const works = [
     type: ["MV", "オリジナル曲"],
     mood: ["ポップ", "エモい", "きれい"],
     style: ["2.5D"],
+    plan: "オリジナルMVプラン",
+    year: "2025",
     tags: ["MV", "オリジナル曲", "ポップ", "エモい", "きれい", "2.5D"],
-    description: ``,
+    description: `ファンの方のお誕生日をお祝いする、新島らんぷさんのオリジナル楽曲MVを制作しました。
+
+楽曲について語られている配信を拝見し、歌詞に込められた想いや、らんぷさんが届けたいメッセージを映像に落とし込んでいます。
+
+1サビ前の「そうだってほら、今日は君の……」では、お洋服のデザインにある◇マークを組み合わせたモチーフを取り入れ、さりげなく「らんぷさんらしさ」を表現。1サビでは、誕生日でも仕事や学校などいつもと変わらない一日を過ごしている人にも楽しんでもらえたら、というらんぷさんの想いを受け取り、カメラワークやカラフルなテキスト装飾を用いた、明るく楽しい映像に仕上げました。
+
+さらに、レンズブラーなどの演出によって、まるでらんぷさんが目の前にいるかのような臨場感を演出しています。冒頭では仕事の通知が届くスマートフォンとして登場した画面が、サビではらんぷさんとの特別な時間を切り取る存在へと変化していく構成にもこだわりました。
+
+2サビでは、「二人きりで静かにお祝いしたい」というらんぷさんの想いを受け継ぎ、少し薄暗く、あたたかく落ち着いた空間を表現。一方、ラスサビでは、MVそのものがプレゼントになるようなイメージで、キラキラとした華やかな演出により、盛大なお祝いの気持ちを込めています。
+
+また、ファンの方にとって、らんぷさん本人からのお祝いの言葉があれば、より特別な作品になるのではないかと考え、最後にらんぷさん手書きの「お誕生日おめでとう！」というメッセージを入れることをご提案しました。
+
+楽曲の魅力を映像化するだけでなく、活動者様とファンの方、それぞれの気持ちに寄り添いながら、見た人の心に残る作品を目指しました。`,
     price: "30,000円",
     period: "2か月"
   },
@@ -68,76 +111,198 @@ const works = [
     type: ["PV"],
     mood: ["かっこいい", "ダーク"],
     style: ["2.5D"],
-    tags: ["PV", "かっこいい", "ダーク",  "2D","2.5D"],
-    description: ``,
+    plan: "その他プラン", 
+    year: "2025", 
+    tags: ["PV", "かっこいい", "ダーク", "2D", "2.5D"],
+    description: `ユムレ様のデビューに合わせた自己紹介PVを制作しました。
+
+「ダークファンタジー × 中二心全開」をコンセプトに、設定やストーリーを一から説明するのではなく、印象的なビジュアルやサウンドに合わせて世界観を直感的に伝える映像を目指しました。断片的なイメージを強く印象づけることで、言語に依存せず、視聴者を一瞬で惹き込む表現を追求しています。
+
+演出面では、素敵なオリジナルロゴに合わせた「秘密結社 DragonX」のテキスト選定も担当。ピストルの動きに合わせて紋章が出現する演出など、ご本人からいただいた具体的なご要望を忠実に反映しました。
+
+また、動画内の説明文やセリフについても、「これから魔王を目指していく」というユムレ様の世界観をもとに、キャラクター性や今後の物語の広がりを感じさせる文言をご提案しています。
+
+単に映像を制作するだけでなく、依頼者様の世界観や思想、キャラクター像を深く理解し、その魅力を最大限に引き出す映像表現を心がけています。`,
     price: "20,000円",
     period: "1か月"
   }
 ];
 
-const state = { type: new Set(), mood: new Set(), style: new Set() };
+// 絞り込み状態
+const state = {
+  type: new Set(),
+  mood: new Set(),
+  style: new Set(),
+  plan: new Set(),
+  year: new Set()
+};
+
+// 絞り込みボタンの選択肢
 const groups = {
   type: ["オリジナル曲", "MV", "歌ってみた", "CM", "PV", "Shorts"],
-  mood: ["かっこいい", "かわいい", "きれい", "おしゃれ", "エモい", "ポップ", "幻想的", "ダーク","ストーリー性"],
-  style: ["2D", "CG", "2.5D", ]
+  mood: ["かっこいい", "かわいい", "きれい", "おしゃれ", "エモい", "ポップ", "幻想的", "ダーク", "ストーリー性"],
+  style: ["2D", "CG", "2.5D"],
+  plan: ["簡易MVプラン", "オリジナルMVプラン", "その他プラン"],
+  year: ["2024", "2025", "2026", "2027"]
 };
 
 const $ = s => document.querySelector(s);
-function allTags(work){ return [...new Set([...work.tags, ...work.type, ...work.mood, ...work.style])]; }
 
-function renderFilters(){
-  for(const [key,tags] of Object.entries(groups)){
-    const el = document.getElementById(key+"Filters");
-    el.innerHTML = tags.map(tag=>`<button class="filter-button ${state[key].has(tag)?"active":""}" data-group="${key}" data-tag="${tag}">${tag}</button>`).join("");
+function allTags(work) {
+  return [
+    ...new Set([
+      ...work.tags,
+      ...work.type,
+      ...work.mood,
+      ...work.style,
+      work.plan,
+      work.year
+    ].filter(Boolean))
+  ];
+}
+
+function renderFilters() {
+  for (const [key, tags] of Object.entries(groups)) {
+    const el = document.getElementById(key + "Filters");
+    if (!el) continue;
+
+    el.innerHTML = tags.map(tag => `
+      <button
+        class="filter-button ${state[key].has(tag) ? "active" : ""}"
+        data-group="${key}"
+        data-tag="${tag}"
+      >${tag}</button>
+    `).join("");
   }
-  document.querySelectorAll(".filter-button").forEach(btn=>{
-    btn.addEventListener("click", ()=>{
-      const group=btn.dataset.group, tag=btn.dataset.tag;
-      state[group].has(tag) ? state[group].delete(tag) : state[group].add(tag);
-      renderFilters(); renderWorks();
+
+  document.querySelectorAll(".filter-button").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const group = btn.dataset.group;
+      const tag = btn.dataset.tag;
+
+      state[group].has(tag)
+        ? state[group].delete(tag)
+        : state[group].add(tag);
+
+      renderFilters();
+      renderWorks();
     });
   });
 }
-function matches(work){
-  for(const [group,set] of Object.entries(state)){
-    if(set.size && ![...set].every(t => allTags(work).includes(t))) return false;
+
+function matches(work) {
+  for (const [group, selected] of Object.entries(state)) {
+    if (!selected.size) continue;
+
+    const values = group === "year"
+      ? [String(work.year)]
+      : group === "plan"
+        ? [work.plan]
+        : work[group] || [];
+
+    // 同じ項目内で複数選択した場合は OR 条件
+    if (![...selected].some(tag => values.includes(tag))) {
+      return false;
+    }
   }
+
   return true;
 }
-function renderWorks(){
-  const list=works.filter(matches);
-  $("#resultCount").textContent=`${list.length} / ${works.length} WORKS`;
-  const active=[...state.type,...state.mood,...state.style];
-  $("#activeFilters").textContent=active.length ? "選択中: "+active.map(x=>`#${x}`).join("  ") : "";
-  $("#worksGrid").innerHTML=list.length ? list.map((w,i)=>`
-    <article class="work-card" data-index="${works.indexOf(w)}">
-      <div class="work-media">
-        <video src="${w.video}" autoplay muted loop playsinline preload="metadata"></video>
-      </div>
-      <div class="work-info">
-        <div class="work-number">${String(works.indexOf(w)+1).padStart(2,"0")}</div>
-        <h3 class="work-title">${w.title}</h3>
-        <div class="tag-list">${w.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
-      </div>
-    </article>`).join("") : `<div class="empty">該当する作品がありません。</div>`;
-  document.querySelectorAll(".work-card").forEach(card=>card.addEventListener("click",()=>openModal(Number(card.dataset.index))));
+
+function renderWorks() {
+  const list = works.filter(matches);
+
+  $("#resultCount").textContent =
+    `${list.length} / ${works.length} WORKS`;
+
+  const active = Object.values(state).flatMap(set => [...set]);
+
+  $("#activeFilters").textContent = active.length
+    ? "選択中: " + active.map(x => `#${x}`).join("  ")
+    : "";
+
+  $("#worksGrid").innerHTML = list.length
+    ? list.map(w => `
+      <article class="work-card" data-index="${works.indexOf(w)}">
+        <div class="work-media">
+          <video
+            src="${w.video}"
+            autoplay muted loop playsinline
+            preload="metadata"
+          ></video>
+        </div>
+        <div class="work-info">
+          <div class="work-number">
+            ${String(works.indexOf(w) + 1).padStart(2, "0")}
+          </div>
+          <h3 class="work-title">${w.title}</h3>
+          <div class="tag-list">
+            ${w.tags.map(t => `<span class="tag">${t}</span>`).join("")}
+          </div>
+        </div>
+      </article>
+    `).join("")
+    : `<div class="empty">該当する作品がありません。</div>`;
+
+  document.querySelectorAll(".work-card").forEach(card => {
+    card.addEventListener("click", () => {
+      openModal(Number(card.dataset.index));
+    });
+  });
 }
-function openModal(index){
-  const w=works[index];
-  $("#modalType").textContent=w.type.join(" / ");
-  $("#modalTitle").textContent=w.title;
-  $("#modalTags").innerHTML=w.tags.map(t=>`<span class="tag">${t}</span>`).join("");
-  $("#modalDescription").textContent=w.description;
-  $("#modalPrice").textContent=w.price || "—";
-  $("#modalPeriod").textContent=w.period || "—";
-  $("#modalYoutube").href=w.youtube || "#";
-  $("#modalMedia").innerHTML=`<video src="${w.video}" autoplay muted loop playsinline controls></video>`;
-  $("#modal").classList.add("open"); $("#modal").setAttribute("aria-hidden","false"); document.body.style.overflow="hidden";
+
+function openModal(index) {
+  const w = works[index];
+
+  $("#modalType").textContent = w.type.join(" / ");
+  $("#modalTitle").textContent = w.title;
+
+  $("#modalTags").innerHTML = [
+    ...w.tags,
+    `PLAN: ${w.plan || "未設定"}`,
+    `YEAR: ${w.year || "未設定"}`
+  ].map(t => `<span class="tag">${t}</span>`).join("");
+
+  $("#modalDescription").textContent = w.description;
+  $("#modalPrice").textContent = w.price || "—";
+  $("#modalPeriod").textContent = w.period || "—";
+  $("#modalYoutube").href = w.youtube || "#";
+
+  $("#modalMedia").innerHTML = `
+    <video
+      src="${w.video}"
+      autoplay muted loop playsinline controls
+    ></video>
+  `;
+
+  $("#modal").classList.add("open");
+  $("#modal").setAttribute("aria-hidden", "false");
+  document.body.style.overflow = "hidden";
 }
-function closeModal(){
-  $("#modal").classList.remove("open"); $("#modal").setAttribute("aria-hidden","true"); $("#modalMedia").innerHTML=""; document.body.style.overflow="";
+
+function closeModal() {
+  $("#modal").classList.remove("open");
+  $("#modal").setAttribute("aria-hidden", "true");
+  $("#modalMedia").innerHTML = "";
+  document.body.style.overflow = "";
 }
-document.querySelectorAll("[data-close]").forEach(x=>x.addEventListener("click",closeModal));
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
-$("#clearFilters").addEventListener("click",()=>{for(const s of Object.values(state))s.clear();renderFilters();renderWorks()});
-renderFilters(); renderWorks();
+
+document.querySelectorAll("[data-close]").forEach(el => {
+  el.addEventListener("click", closeModal);
+});
+
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeModal();
+});
+
+$("#clearFilters").addEventListener("click", () => {
+  for (const selected of Object.values(state)) {
+    selected.clear();
+  }
+
+  renderFilters();
+  renderWorks();
+});
+
+renderFilters();
+renderWorks();
