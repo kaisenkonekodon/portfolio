@@ -1,6 +1,6 @@
 const works = [
   {
-    title: "「わんコメ」CM作ってみた",
+    title: "「わんコメ」CM作ってみた/新島らんぷ様",
     video: "assets/video/wankome.mp4",
     youtube: "https://youtu.be/XJLatn0lAB8",
     type: ["CM"],
@@ -14,7 +14,7 @@ const works = [
     period: "1か月"
   },
   {
-    title: "どきどきキュン!で大暴走♡",
+    title: "どきどきキュン!で大暴走♡/奏雨-sou-様 他",
     video: "assets/video/dokidoki-kyun.mp4",
     youtube: "https://youtu.be/XWSi5UIVPhk",
     type: ["MV", "歌ってみた"],
@@ -26,7 +26,7 @@ const works = [
     period: "1.5か月"
   },
   {
-    title: "ラブドール",
+    title: "ラブドール/145様",
     video: "assets/video/lovedoll.mp4",
     youtube: "https://youtu.be/mkvbVoxm3tk",
     type: ["MV", "歌ってみた"],
@@ -38,7 +38,7 @@ const works = [
     period: "2か月"
   },
   {
-    title: "春よ、私の懺悔を聴いて feat.初音ミク",
+    title: "春よ、私の懺悔を聴いて feat.初音ミク/DEAR様",
     video: "assets/video/haru-zange.mp4",
     youtube: "https://youtu.be/OFVcrbvBkSs",
     type: ["MV", "オリジナル曲"],
@@ -50,7 +50,7 @@ const works = [
     period: "3週間"
   },
   {
-    title: "とあるVTuberとの誕生日",
+    title: "とあるVTuberとの誕生日/新島らんぷ様",
     video: "assets/video/vtuber-birthday.mp4",
     youtube: "https://youtu.be/38RSVb23N2M",
     type: ["MV", "オリジナル曲"],
@@ -62,7 +62,7 @@ const works = [
     period: "2か月"
   },
   {
-    title: "【自己紹介PV】ユムレ・カオスアニマ様",
+    title: "【自己紹介PV】/ユムレ・カオスアニマ様",
     video: "assets/video/yumure-profile-pv.mp4",
     youtube: "https://youtu.be/-ssw5IHPUGs",
     type: ["PV"],
