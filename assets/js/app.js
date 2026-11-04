@@ -133,6 +133,8 @@ const works = [
   type: ["歌ってみたMV", "Shorts"],
   mood: ["かっこいい", "おしゃれ"],
   style: ["2D"],
+  plan: "Shorts MVプラン", 
+  year: "2026", 
   tags: ["歌ってみたMV", "Shorts", "かっこいい", "おしゃれ", "2D", "Shorts MVプラン", "2026"],
   description: `新島らんぷ様の歌枠配信を、MV風に編集しました。
 
@@ -151,6 +153,8 @@ const works = [
   type: ["歌ってみたMV", "Shorts"],
   mood: ["かわいい", "ポップ"],
   style: ["2D", "2.5D"],
+  plan: "Shorts MVプラン", 
+  year: "2026", 
   tags: ["歌ってみたMV", "Shorts", "かわいい", "ポップ", "2D", "Shorts MVプラン", "2026"],
   description: `水沢オペラ様の歌枠配信を、MV風の映像に編集しました。
 
@@ -169,6 +173,8 @@ const works = [
   type: ["歌ってみたMV", "Shorts"],
   mood: ["かわいい", "ポップ"],
   style: ["2D"],
+  plan: "Shorts MVプラン", 
+  year: "2026", 
   tags: ["歌ってみたMV", "Shorts", "かわいい", "ポップ", "2D", "Shorts MVプラン", "2026"],
   description: `新島らんぷ様の歌枠配信を、MV風に編集しました。
 
