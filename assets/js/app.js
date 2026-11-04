@@ -150,7 +150,7 @@ const works = [
   youtube: "https://youtu.be/Fa8jNePWGMo",
   type: ["歌ってみたMV", "Shorts"],
   mood: ["かわいい", "ポップ"],
-  style: ["2D""2.5D"],
+  style: ["2D", "2.5D"],
   tags: ["歌ってみたMV", "Shorts", "かわいい", "ポップ", "2D", "Shorts MVプラン", "2026"],
   description: `水沢オペラ様の歌枠配信を、MV風の映像に編集しました。
 
